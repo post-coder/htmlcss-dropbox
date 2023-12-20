@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* reset */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+
+/* elementi comuni */
+.container-big {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    border: dotted 2px black;
+    min-height: 100px;
+
+    /* test */
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    display: inline-block;
+
+    padding: 12px 16px;
+
+    text-decoration: none;
+
+    color: white;
+    background-color: #0061ff;
+}
+
+/* fine elementi comuni */
+
+
+
+
+
+/* navbar */
+nav {
+    height: 80px;
+    /* test */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+
+    background-color: white;
+}
+/* fine navbar */
+
+
+/* header */
+header {
+    background-color: #b4d0e7;
+
+    /* padding-top: 100px; */
+
+    margin-bottom: 150px;
+}
+
+header .container-big {
+    position: relative;
+    bottom: -60px;
+}
+
+header .row {
+    display: flex;
+}
+
+header .row .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 34px;
+
+    width: 30%;
+}
+
+header .row .text .fa-solid {
+    margin-top: 40px;
+    font-size: 46px;
+}
+
+header .row .image {
+    width: 70%;
+
+}
+
+header .row .image img {
+    width: 100%;
+}
+
+/* fine header */
+
+
+/* business plans */
+
+#business-plans {
+    margin-bottom: 150px;
+}
+
+#business-plans .row  {
+    display: flex;
+    justify-content: space-between;
+}
+
+#business-plans .row .plan {
+    border: dashed 1px red;
+    min-height: 100px;
+    /* test */
+    
+    width: calc(100% / 3 - 50px / 3 * 2)
+}
+
+/* fine business plans */
+
+
+/* get in contact */
+
+#get-in-contact {
+    display: flex;
+}
+
+#get-in-contact .image {
+    height: 200px;
+    border: 1px dashed black;
+    /* test */
+    width: 60%;
+}
+
+#get-in-contact .text {
+    height: 200px;
+    border: 1px dashed black;
+    /* test */
+    width: 40%;
+}
+/* fine get in contact */
+
+
+/* più operazioni */
+#more-operations {
+    background-color: lightpink;
+
+    /* test */
+}
+
+#more-operations .row  {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+#more-operations .row .col {
+    height: 200px;
+    border: dotted 2px red;
+    /* test */
+
+    width: calc(100% / 3 - 50px / 3 * 2);
+}
+
+/* fine più operazioni */
